@@ -58,7 +58,7 @@ a:hover {
 /* nav bar */
 
 .nav-container {
-  background: linear-gradient(to bottom, #8c8c8c 0%, #555 50%, #7c7c7c 52%, #a8a8a8 100%);
+  background: linear-gradient(to bottom, gray 0%, #7c7c7c 50%, #666 51%, gray);
   border-radius: 4px;
   left: 0;
   max-width: 960px;
