@@ -4,7 +4,7 @@
 
 ![screenshot](./screenshot.png)
 
-You can find the file online at this [link](https://web.archive.org/web/20140301004610/http://www.apple.com/).
+You can find the original web page online at this [link](https://web.archive.org/web/20140301004610/http://www.apple.com/).
 
 ## Built With
 
@@ -13,7 +13,7 @@ You can find the file online at this [link](https://web.archive.org/web/20140301
 
 ## Live Demo
 
-[Live Demo Link](https://meme-es.github.io/oldstyle-applewebpage/)
+[Live Demo Link](http://htmlpreview.github.io/?https://github.com/meme-es/oldstyle-applewebpage/developing-page/index.html)
 
 ## Authors
 
