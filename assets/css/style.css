@@ -1,0 +1,206 @@
+/* reseting things */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white;
+  font-weight: normal;
+  margin: 0 0 5px 0;
+}
+
+body {
+  font-family: 'robotothin', Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* special font setting */
+
+@font-face {
+  font-family: 'robotothin';
+  font-style: normal;
+  font-weight: lighter;
+  src:
+    url(/assets/fonts/roboto-thin-webfont.woff) format('woff'),
+    url(/assets/fonts/roboto-thin-webfont.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'robotoregular';
+  font-style: normal;
+  font-weight: lighter;
+  src:
+    url(/assets/fonts/roboto-regular-webfont.woff) format('woff'),
+    url(/assets/fonts/roboto-regular-webfont.woff2) format('woff2');
+}
+
+/* general settings */
+
+a {
+  color: #20a9d3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.footer-link li {
+  border-right: 1px solid #cdcdcd;
+  padding: 0 4px;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+/* nav bar */
+
+.nav-container {
+  background: linear-gradient(to bottom, #8c8c8c 0%, #555 50%, #7c7c7c 52%, #a8a8a8 100%);
+  border-radius: 4px;
+  left: 0;
+  max-width: 1080px;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  top: 60px;
+}
+
+.nav-container li {
+  border-left: 1px solid #9b9b9b;
+  border-right: 1px solid #3f3f3f;
+  float: left;
+  font-family: 'robotoregular', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-shadow: 1px -1px black;
+  text-align: center;
+  width: 10.5%;
+}
+
+.footer-link li:last-child {
+  border-right: none;
+}
+
+.nav-container li:first-child {
+  border-left: none;
+}
+
+.nav-container li a {
+  color: #f8f8f8;
+  display: block;
+  font-size: 12px;
+  padding: 8px 0;
+}
+
+.nav-container li:first-child a {
+  padding: 3px 0;
+}
+
+.nav-container li:last-child {
+  border-right: none;
+}
+
+.nav-container ul li.nav-item:hover {
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.nav-container li a:hover {
+  text-decoration: none;
+}
+
+.search {
+  background: rgba(0, 0, 0, 0.35);
+  border: 1px solid #616161;
+  border-radius: 10px;
+  float: left;
+  height: 22px;
+  margin: 4% 1%;
+  max-width: 98%;
+}
+
+.search input {
+  background: none;
+  background-image: url(/assets/images/magnifying-glass.png);
+  background-position: 2px 0;
+  background-repeat: no-repeat;
+  background-size: 17px 16px;
+  border: none;
+  border-radius: 5px;
+  height: 50%;
+  padding: 3px 0;
+  width: 95%;
+}
+
+/* welcome sections */
+
+.welcome-section {
+  background-image: url(/assets/images/your-verse.jpg);
+  background-position: center bottom;
+  background-size: cover;
+  height: 70vh;
+}
+
+.welcome-text {
+  margin: 0 auto;
+  padding: 120px 0;
+  text-align: center;
+  width: 75%;
+}
+
+.welcome-text h1 {
+  font-size: 65px;
+  margin: 35px 0;
+}
+
+.welcome-text h2 {
+  font-size: 35px;
+  margin: 25px 0;
+}
+
+.welcome-text h3 {
+  font-size: 25px;
+  margin: 15px 0;
+}
+
+/* adds section */
+
+.promo-ads {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.image {
+  width: 100%;
+}
+
+/* footer section */
+
+.footer {
+  color: #616161;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+  margin: 20px auto;
+  max-width: 1100px;
+}
+
+.row-footer {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.list-inline {
+  margin: 0;
+  padding: 0;
+}
+
+.flag img {
+  height: 12px;
+}
+
+.footer-copyright {
+  margin: 20px 0 30px 0;
+}
