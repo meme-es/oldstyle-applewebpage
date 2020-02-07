@@ -61,7 +61,7 @@ a:hover {
   background: linear-gradient(to bottom, #8c8c8c 0%, #555 50%, #7c7c7c 52%, #a8a8a8 100%);
   border-radius: 4px;
   left: 0;
-  max-width: 1080px;
+  max-width: 960px;
   margin: 0 auto;
   position: absolute;
   right: 0;
@@ -116,7 +116,7 @@ a:hover {
   border-radius: 10px;
   float: left;
   height: 22px;
-  margin: 4% 1%;
+  margin: 4% 4%;
   max-width: 98%;
 }
 
